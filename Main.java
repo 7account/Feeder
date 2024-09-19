@@ -8,8 +8,8 @@ public class Main
         System.out.println(f.getCurrentFood());
         Feeder g = new Feeder(500);
         System.out.println(g.getCurrentFood());
-        int random = (int)(Math.random() * 10 + 1);
-        System.out.println(random);
-        System.out.println(Math.random() < 0.05);
+        Feeder i = new Feeder(50);
+        i.simulateOneDay(1);
+        System.out.println(i);
     }
 }
