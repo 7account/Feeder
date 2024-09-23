@@ -8,7 +8,7 @@ public class Main
         //System.out.println(f.getCurrentFood());
         ///Feeder g = new Feeder(500);
         //System.out.println(g.getCurrentFood());
-        Feeder j = new Feeder(1000);
-        System.out.println(j.simulateManyDays(5, 5));
+        Feeder j = new Feeder(0);
+        System.out.println(j.simulateManyDays(5, 10));
     }
 }
